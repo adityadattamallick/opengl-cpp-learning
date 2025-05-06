@@ -1,0 +1,5 @@
+CLI:
+
+clang -o main main.cpp -I$(brew --prefix)/include -L$(brew --prefix)/lib -lglfw -framework OpenGL
+
+Then Double Click On The main file
